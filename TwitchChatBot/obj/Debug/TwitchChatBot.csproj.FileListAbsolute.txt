@@ -1,0 +1,10 @@
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.exe.config
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.exe
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.pdb
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\log4net.dll
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\Meebey.SmartIrc4net.dll
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\StarkSoftProxy.dll
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\bin\Debug\log4net.xml
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.exe
+E:\Documents\Visual Studio 2015\Projects\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.pdb
