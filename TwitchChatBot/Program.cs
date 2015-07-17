@@ -23,7 +23,7 @@ namespace TwitchChatBot
 
         public static IrcClient irc = new IrcClient();
 
-        public static String[] wakeupResponses = { "I wasn't sleeping", "Onii-chan!!", "You call?", "What's up?", "Somebody call for me??", "Hola", "Hey!", "✺◟(∗❛ัᴗ❛ั∗)◞✺" };
+        public static String[] wakeupResponses = {"(≖_≖ )","💪(◡̀_◡́҂)", "I wasn't sleeping", "Onii-chan!!", "You call?", "What's up?", "Somebody call for me??", "Hola", "Hey!", "✺◟(∗❛ัᴗ❛ั∗)◞✺" };
 
         public static List<ChatModule> runningModules = new List<ChatModule>();
 

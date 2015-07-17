@@ -15,7 +15,9 @@ namespace TwitchChatBot
             {"!lenny","(͡° ͜ʖ ͡°)" },
             {"!eat","(っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )" },
             {"!hi","(っ＾▿＾)💨" },
-           {"!svn","https://github.com/hissbot/ChatBot" }
+           {"!svn","https://github.com/hissbot/ChatBot" },
+           {"!shrug",@"¯\_| ಠ ∧ ಠ |_/¯" },
+           {"!test","Kappa" }
            
         };
 
