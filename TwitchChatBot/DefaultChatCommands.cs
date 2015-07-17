@@ -10,7 +10,13 @@ namespace TwitchChatBot
        public  Dictionary<string, string> chatStrings = new Dictionary<string, string>()
         {
             {"!help","Help would go here!" },
-            {"!dummy","Corra1310" }
+            {"!dummy","Corra1310" },
+            {"!version","HissBot V0.2" },
+            {"!lenny","(͡° ͜ʖ ͡°)" },
+            {"!eat","(っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )" },
+            {"!hi","(っ＾▿＾)💨" },
+           {"!svn","https://github.com/hissbot/ChatBot" }
+           
         };
 
 
