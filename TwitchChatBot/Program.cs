@@ -19,7 +19,7 @@ namespace TwitchChatBot
     class ChatBot
     {
 
-        public static string channel = "#corra1310";
+        public static string[] channel = new string[] { "#corra1310"};
 
         public static IrcClient irc = new IrcClient();
 
@@ -34,6 +34,7 @@ namespace TwitchChatBot
             irc.SendDelay = 200;
             irc.ActiveChannelSyncing = true;
             irc.OnRawMessage += new IrcEventHandler(onRawMessage);
+            irc.OnQueryMessage += new IrcEventHandler(onRawMessage);
 
             string[] serverlist;
             // the server we want to connect to, could be also a simple string
@@ -88,6 +89,8 @@ namespace TwitchChatBot
             runningModules.Add(new TicTackToeModule());
             runningModules.Add(new Roulette());
             runningModules.Add(new DefaultChatCommands());
+            runningModules.Add(new BlackjackModule());
+            runningModules.Add(new TimeTools());
             
         }
         private static void onRawMessage(object sender, IrcEventArgs e)
@@ -221,7 +224,7 @@ namespace TwitchChatBot
         }
         public static void say(String inputString)
         {
-            irc.SendMessage(SendType.Message, channel, inputString);
+            irc.SendMessage(SendType.Message, channel[0], inputString);
         }
     }
 }

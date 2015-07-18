@@ -24,8 +24,6 @@ namespace TwitchChatBot
         }
         public override void ProcessMessage(IrcEventArgs e)
         {
-
-
            
 
             if (gameOver)

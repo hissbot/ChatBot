@@ -15,16 +15,16 @@ namespace TwitchChatBot
             {"!lenny","(͡° ͜ʖ ͡°)" },
             {"!eat","(っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )" },
             {"!hi","(っ＾▿＾)💨" },
-           {"!svn","https://github.com/hissbot/ChatBot" },
+           {"!github","https://github.com/hissbot/ChatBot" },
            {"!shrug",@"¯\_| ಠ ∧ ಠ |_/¯" },
-           {"!test","Kappa" }
+           {"!test",@"Testing" }
            
         };
 
 
         public DefaultChatCommands()
         {
-            initCommands = new string[] { "!chat" };
+            initCommands = new string[] { "!chat" ,"!c" };
         }
         public override void ProcessMessage(IrcEventArgs e)
         {
@@ -39,9 +39,9 @@ namespace TwitchChatBot
         {
             string initCommand = e.Data.MessageArray[0];
            
-            if (initCommand==initCommands[0])
+            if (initCommands.Any(cmd => initCommand ==cmd))
             {
-                //use typed !chat. TODO change later so it checks whole list
+                ChatBot.say("Found chat command");
             }
             else
             {
